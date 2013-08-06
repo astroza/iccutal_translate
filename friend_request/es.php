@@ -27,7 +27,7 @@ Puedes ver tus solicitudes de amistad pendientes en:
 		// Approve request
 		'friend_request:approve' => "Aceptar",
 		'friend_request:approve:successful' => "%s es ahora tu amigo",
-		'friend_request:approve:fail' => "Error al aceptar la solicitud de amistad de %s", Por favor, inténtelo otra vez."
+		'friend_request:approve:fail' => "Error al aceptar la solicitud de amistad de %s, Por favor, inténtelo otra vez.",
 	
 		// Decline request
 		'friend_request:decline' => "Rechazar",
