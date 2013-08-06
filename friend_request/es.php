@@ -8,49 +8,50 @@
 		
 		'friend_request:friend:add:pending' => "Solicitud de amistad enviada",
 		
-		'friend_request:newfriend:subject' => "%s wants to be your friend!",
-		'friend_request:newfriend:body' => "%s wants to be your friend! But they are waiting for you to approve the request...so login now so you can approve the request!
+		'friend_request:newfriend:subject' => "%s quiere ser tu amigo!",
+		'friend_request:newfriend:body' => "%s quiere ser tu amigo!
 
-You can view your pending friend requests at:
+Accede ahora y acepta su solicitud de amistad.
+
+Puedes ver tus solicitudes de amistad pendientes en:
 %s
 
-Make sure you are logged into the website before clicking on the following link otherwise you will be redirected to the login page.
-
-(You cannot reply to this email.)",
+(Por favor no responda a este e mail.)",
 		
 		// Actions
 		// Add request
-		'friend_request:add:failure' => "Sorry, because of a system error we were unable to complete your request. Please try again.",
-		'friend_request:add:successful' => "You have requested to be friends with %s. They must approve your request before they will show on your friends list.",
-		'friend_request:add:exists' => "You've already requested to be friends with %s.",
+		'friend_request:add:failure' => "Lo sentimos, debido a un error del sistema no se pudo completar tu solicitud. Por favor, inténtelo otra vez.",
+		'friend_request:add:successful' => "Ya enviaste una solicitud de amistad a %s. Antes de aparecer en su lista de amigos, el debe aceptar tu solicitud.",
+		'friend_request:add:exists' => "Ya enviaste una solicitud de amistad a %s.",
 		
 		// Approve request
-		'friend_request:approve' => "Approve",
-		'friend_request:approve:successful' => "%s is now a friend",
-		'friend_request:approve:fail' => "Error while creating friend relation with %s",
+		'friend_request:approve' => "Aceptar",
+		'friend_request:approve:successful' => "%s es ahora tu amigo",
+		'friend_request:approve:fail' => "Error al aceptar la solicitud de amistad de %s", Por favor, inténtelo otra vez."
 	
 		// Decline request
-		'friend_request:decline' => "Decline",
-		'friend_request:decline:subject' => "%s has declined your friend request",
-		'friend_request:decline:message' => "Dear %s,
+		'friend_request:decline' => "Rechazar",
+		'friend_request:decline:subject' => "%s ha rechazado tu solicitud de amistad",
+		'friend_request:decline:message' => "%s,
 
-%s has declined your request to become a friend.",
-		'friend_request:decline:success' => "Friend request successfully declined",
-		'friend_request:decline:fail' => "Error while declining Friend request, please try again",
+%s a rechazado tu solicitud de amistad.",
+
+		'friend_request:decline:success' => "Solicitud de amistad rechazada",
+		'friend_request:decline:fail' => "Error al rechazar la solicitud de amistad, Por favor, inténtelo otra vez.",
 		
 		// Revoke request
-		'friend_request:revoke' => "Revoke",
-		'friend_request:revoke:success' => "Friend request successfully revoked",
-		'friend_request:revoke:fail' => "Error while revoking Friend request, please try again",
+		'friend_request:revoke' => "Cancelar",
+		'friend_request:revoke:success' => "Solicitud de amistad cancelada",
+		'friend_request:revoke:fail' => "Error al cancelar la solicitud de amistad, Por favor, inténtelo otra vez",
 	
 		// Views
 		// Received
-		'friend_request:received:title' => "Received Friend requests",
-		'friend_request:received:none' => "No requests pending your approval",
+		'friend_request:received:title' => "Solicitudes de amistad recividas",
+		'friend_request:received:none' => "No hay solicitudes pendientes",
 	
 		// Sent
-		'friend_request:sent:title' => "Sent Friend requests",
-		'friend_request:sent:none' => "No sent requests pending approval",
+		'friend_request:sent:title' => "Solicitudes de amistad enviadas",
+		'friend_request:sent:none' => "No hay solicitudes pendientes",
 	);
 					
 	add_translation("es", $spanish);
