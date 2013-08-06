@@ -1,4 +1,4 @@
 iccutal_translate
 =================
 
-Traducciones de plugins y core de Elgg (motor de iccutal)
+En cada directorio habrá un es.php que corresponde a una traducción a español de un componente de Elgg. Si ve que esta incompleta o incorrecta, por favor envie correcciones!
